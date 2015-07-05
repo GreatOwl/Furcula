@@ -1,0 +1,6 @@
+#Don't commit IDE files, its a courtesy!
+.idea/*
+.idea
+vendor
+log
+testing/build

@@ -1,0 +1,3 @@
+imports:
+  - resource: vendor/GreatOwl/Furcula/config/di/libraries/slim.yml
+  - resource: vendor/GreatOwl/Furcula/config/di/libraries/acclimate.yml

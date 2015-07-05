@@ -1,0 +1,22 @@
+parameters:
+
+  slim.settings: []
+
+services:
+
+  slim:
+    class: 'Slim\App'
+    arguments:
+      - @container
+
+  slim.container:
+      class: Slim\Container
+      arguments:
+        - %slim.settings%
+
+  furcula.loader.routing:
+    class: 'GreatOwl\Furcula\Loaders\Routing'
+    arguments:
+      - @slim
+      - @container
+      - %routes%
