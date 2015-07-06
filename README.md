@@ -1,2 +1,2 @@
 # Furcula
-A true skeletal structure of an owl, also known as a wishbone. Indicative of my wish that this skeleton app works as I hope.
+A piece of an owls skeletal structure, the wishbone. Embodying my hopes that this will simplify new app setups.
